@@ -16,6 +16,13 @@
 
 由于jar太大了，一直上传失败，因此，请手动到帆软官网下载吧。最后别忘了拆分fine-third-10.0.jar，否则太大了。
 
+这里提供windows下如何拆分jar包的方法:
+将原始的fine-third-10.0.jar 和 `install/split.cmd` 放在同一个目录下，运行`install/split.cmd` 等待一会就可以看到被拆分成两个jar,分别是 `fine-third-10.0.jar` 和 `fine-third-v2-10.0.jar`, 原始的 jar 包重命名为`fine-third-10.0.jar_bak`  
+
+
+`install/split.cmd` 脚本是在官方文档找到的，稍微修改了一点  
+
+
 ### Windows
 
 对于`Windows`用户，运行`install/installjars.bat`。
